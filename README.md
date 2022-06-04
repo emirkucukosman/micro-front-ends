@@ -12,3 +12,9 @@ without the host knowing about the remote app's technology stack
 1. Install dependencies for `host` with `cd host && npm install`
 2. Install dependencies for `react-host` with `cd react-host && npm install`
 3. Install dependencies for `remote` with `cd remote && npm install`
+
+# Start Apps
+1. Run the SolidJS host with `cd host && npm start`
+2. Run the ReactJS host with `cd react-host && npm start`
+3. Run the SolidJS remote with `cd remote && npm start`
+4. Make a change in the remote app, refresh the host app's page and Voilà!
